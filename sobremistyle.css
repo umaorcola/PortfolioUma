@@ -1,0 +1,64 @@
+.carta-plantilla{
+    border-radius: 10px;
+    text-align: center;
+    width: 450px;
+    background-color: rgb(231, 180, 180);
+    margin: auto;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    box-shadow: 0px 0px 15px beige;
+    color: beige
+
+    
+}
+
+
+
+.carta-rosa{
+    border-radius: 10px;
+    text-align: center;
+    width: 450px;
+    background-color: rgb(173, 127, 127);
+    margin: auto;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 15px beige;
+    color: beige
+}
+
+.carta-morada{
+    border-radius: 10px;
+    text-align: center;
+    width: 450px;
+    background-color: rgb(202, 152, 152);
+    margin: auto;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 15px beige;
+    color: beige
+}
+
+
+.imagen-carta{
+    width: 140px;
+    height: 140px;
+  
+}
+.titulo-carta{
+    padding-top: 10px;
+    font-size: 30px;
+    margin: 0;
+}
+.subtitulo-carta{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.contenido-carta{
+    margin: 0px;
+    padding: 0px 20px 0px 20px;
+ text-align: justify;
+ font-size: 16px
+}

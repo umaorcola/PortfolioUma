@@ -1,0 +1,76 @@
+/* Contenedor del formulario */
+form {
+    background-color: #ffffffe3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(231, 166, 166, 0.878);
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Encabezado */
+h1 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+
+}
+
+
+
+body{
+    text-align: center;
+}
+/* Etiquetas de los campos */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555555;
+}
+
+/* Campos de entrada */
+input[type="text"], 
+input[type="tel"], 
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Área de texto */
+textarea {
+    resize: none;
+}
+
+/* Botón de enviar */
+button {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Ajuste para dispositivos pequeños */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
