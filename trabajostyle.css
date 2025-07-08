@@ -98,7 +98,7 @@ body {
 
 body {
   font-family: Arial, sans-serif;     /* Define la fuente principal del sitio */
-  background-image: url(../img/fondo.jpg);
+  background-image: url(fondo.jpg);
 }
 
 .navbar {
